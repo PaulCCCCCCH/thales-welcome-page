@@ -1,0 +1,49 @@
+#logo {
+	height: 40px;
+	width: 220px;
+}
+
+#navbar {
+	position: absolute;
+	width: 100%;
+	padding-top: 10px;
+	/*background-color: rgba(40, 40, 40, 0.5);*/
+	padding-bottom: 10px;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+#bg {
+
+	background-image: url("bg4.png");
+	  height: 100%; 
+
+  /* Center and scale the image nicely */
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+}
+
+#title {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(0%, -50%);
+	font-size: 100px;
+}
+
+ul, .descr {
+	margin-top: 10px;
+	font-size: 20px;
+}
+
+li {
+	margin-top: 10px;
+}
+
+.container {
+	margin-top: 150px;
+}
