@@ -21,7 +21,7 @@ body, html {
 
 #bg {
 	background-image: url("bg.jpg");
-	  height: 100%; 
+	  height: 100%;
 
   /* Center and scale the image nicely */
 	  background-position: center;
@@ -50,4 +50,9 @@ li {
 
 .container {
 	margin-top: 150px;
+}
+
+.footer_contact{
+  padding: 5px;
+  text-align: center;
 }
